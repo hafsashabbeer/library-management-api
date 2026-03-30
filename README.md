@@ -30,13 +30,12 @@ A Spring Boot REST API for managing books, members, and borrowing operations in 
 ---
 
 ##  Project Structure
+
+```text
 src/main/java/com/library/api
-│
-├── controller # REST Controllers
-├── service # Business Logic
-├── repository # JPA Repositories
-├── model # Entity Classes
-├── dto # Request/Response DTOs
-├── exception # Custom Exceptions & Handler
-
-
+├── controller    # REST Controllers
+├── service       # Business Logic
+├── repository    # JPA Repositories
+├── model         # Entity Classes
+├── dto           # Request/Response DTOs
+├── exception     # Custom Exceptions & Handler
